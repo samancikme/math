@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- style -->
+    <link rel="stylesheet" href="./main.css">
+    <!------------------------------------------------>
+
+    <title>Arifmetik progressiyani esaplaytuǵın online kalkulyator</title>
+</head>
+<body>
+    <center>
+        <form name="form" style="min-width:340px ">
+            <table class="my_table">
+
+
+
+
+
+
+        <div>
+            <div class="title" colspan=4 >
+                <h1>Online kalkulyator<br> Arifmetik progressiya</h1>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="inputs-1" align="left">
+            <div class="left">
+                <h1>A</h1>
+                <div class="input-number">
+                    <input type="text" height="3" id='inN' size="2" maxlength="5" value = "1" />
+                 </div>
+            </div>
+
+            <div class="right">
+                <div class="input-number-2">
+                    <input type="number" id='inV' size="10" maxlength="10" value = "1"  /></div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="inputs-2" align="left">
+            <div class="left">
+                <h1>d </h1>
+            </div>
+            <div class="right">
+                <div class="input-1"><input class="" type="number" id='inD' size="10" maxlength="12" value = "1" /></div>
+            </div>
+        </div>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="inputs-3" align="left">
+            <div class="left">
+                <h1>S<sub>n</sub></h1>
+            </div>
+            <div class="right"> 
+                <div class="input-3">
+                    <input  type="number" id='NN' size="10" maxlength="12" value = "10" style='text-align: center' />
+                </div>
+            </div>
+        </div>
+    
+
+
+
+
+
+
+
+        <div align="center" style="display:none">
+            
+            <label>
+                <INPUT CHECKED type=radio id=ARIFM name=METOD>Арифметическая прогрессия  
+            </label>>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <div align=center>
+            <div colspan=2>
+                <div style="display:inline-block;margin:50px 5px 70px 5px;height:100%;width:100%;max-width:390px"></div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <div align=center>
+            <div colspan=2>
+                <input class="btn" type='button' value="Natiyje" name="B1" onclick="reshenie();">
+            </div>
+        </div>
+              
+            </table>
+            <table>
+        <div>
+            <div>
+                <p align="center" style='text-align: left; line-height: 190%;'>
+                <span id="output"></span>
+            </div>
+        </div>
+            </table>
+        </form>
+    </center>
+
+
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
